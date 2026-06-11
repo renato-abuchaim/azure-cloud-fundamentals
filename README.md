@@ -23,3 +23,51 @@ Além do aprendizado em Cloud Computing, este projeto também é utilizado para 
 * Desenvolver projetos práticos na nuvem
 * Praticar versionamento com Git e GitHub
 * Construir um portfólio de estudos em Cloud Computing
+
+---
+
+## 📚 Conteúdo do Projeto
+
+### 📘 Módulo 1 - Fundamentos de Cloud Computing
+
+* ☁️ Computação em Nuvem
+* 🌎 Modelos de Nuvem
+* 🚀 Benefícios da Nuvem
+* ⚙️ IaaS, PaaS e SaaS
+* 🔐 Modelo de Responsabilidade Compartilhada
+* 📈 SLA (Service Level Agreement)
+* 🖥️ Portal Microsoft Azure
+
+---
+
+## 📈 Progresso dos Estudos
+
+### Fundamentos de Cloud Computing
+
+* [ ] Computação em Nuvem
+* [ ] Modelos de Nuvem
+* [ ] Benefícios da Nuvem
+* [ ] IaaS, PaaS e SaaS
+* [ ] Responsabilidade Compartilhada
+* [ ] SLA
+* [ ] Portal Azure
+* [ ] Desafio de Código
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+azure-cloud-fundamentals/
+│
+├── README.md
+│
+├── docs/
+│   ├── cloud-computing.md
+│   ├── cloud-models.md
+│   ├── cloud-benefits.md
+│   ├── service-models.md
+│   └── azure-portal.md
+│
+└── images/
+```
