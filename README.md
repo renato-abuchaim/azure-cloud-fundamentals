@@ -10,6 +10,8 @@
 
 Minha jornada de aprendizado em Computação em Nuvem e Microsoft Azure.
 
+![Computação em Nuvem](images/cloud-computing.png)
+
 Este repositório foi criado para registrar meus estudos, anotações, desafios de código, laboratórios e projetos práticos desenvolvidos ao longo da minha evolução na plataforma Microsoft Azure.
 
 Além do aprendizado em Cloud Computing, este projeto também é utilizado para praticar versionamento com Git e GitHub através de branches, commits e Pull Requests.
@@ -71,3 +73,12 @@ azure-cloud-fundamentals/
 │
 └── images/
 ```
+## 📄 Documentação
+
+| Documento                                     | Descrição                                              |
+| --------------------------------------------- | ------------------------------------------------------ |
+| [cloud-computing.md](docs/cloud-computing.md) | Conceitos básicos de Computação em Nuvem               |
+| [cloud-models.md](docs/cloud-models.md)       | Modelos de Nuvem Pública, Privada e Híbrida            |
+| [cloud-benefits.md](docs/cloud-benefits.md)   | Benefícios da Computação em Nuvem                      |
+| [service-models.md](docs/service-models.md)   | IaaS, PaaS, SaaS, SLA e Responsabilidade Compartilhada |
+| [azure-portal.md](docs/azure-portal.md)       | Navegação e conceitos do Portal Azure                  |
