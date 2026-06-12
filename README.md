@@ -131,8 +131,6 @@ Nesta segunda abordagem, a solução utiliza um dicionário Python para realizar
 
 Essa abordagem simula um padrão muito utilizado em sistemas reais, onde estruturas de chave-valor são aplicadas para otimizar consultas e simplificar regras de negócio.
 
----
-
 📄 Arquivo:
 
 [desafio-2-dicionario.py](/code/desafio-2-dicionario.py)
