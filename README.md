@@ -120,7 +120,7 @@ Esse tipo de problema simula situações reais em ambientes de TI e cloud, onde 
 Nesta primeira abordagem, a solução é construída utilizando estruturas condicionais sequenciais para verificar a entrada do usuário e retornar o serviço correspondente.
 
 📄 Arquivo:
-```text
+
 [desafio-1-if-else.py](/code/desafio-1-if-else.py)
 
 ---
@@ -134,7 +134,7 @@ Essa abordagem simula um padrão muito utilizado em sistemas reais, onde estrutu
 ---
 
 📄 Arquivo:
-```text
+
 [desafio-2-dicionario.py](/code/desafio-2-dicionario.py)
 
 ---
