@@ -53,7 +53,6 @@ Além do aprendizado em Cloud Computing, este projeto também é utilizado para 
 * [❌] Responsabilidade Compartilhada
 * [❌] SLA
 * [❌] Portal Azure
-* [❌] Desafio de Código
 
 ---
 
@@ -82,3 +81,36 @@ azure-cloud-fundamentals/
 | [cloud-benefits.md](docs/cloud-benefits.md)   | Benefícios da Computação em Nuvem                      |
 | [service-models.md](docs/service-models.md)   | IaaS, PaaS, SaaS, SLA e Responsabilidade Compartilhada |
 | [azure-portal.md](docs/azure-portal.md)       | Navegação e conceitos do Portal Azure                  |
+
+---
+
+## 🔀 Estratégia de Versionamento
+
+Este projeto utiliza uma estrutura simples baseada em Git Flow para organização dos estudos e evolução do conteúdo.
+
+### Branches
+
+```text
+main
+│
+└── develop
+    │
+    └── feature/*
+```
+
+### Fluxo de Trabalho
+
+1. Criar uma branch de funcionalidade a partir da `develop`
+2. Realizar alterações e commits
+3. Enviar a branch para o GitHub
+4. Abrir Pull Request para `develop`
+5. Realizar o merge após a revisão
+6. Ao final de cada módulo, realizar merge de `develop` para `main`
+
+---
+
+## 📌 Status
+
+🟡 Em desenvolvimento
+
+Este repositório será atualizado continuamente conforme avanço nos estudos, laboratórios e projetos práticos utilizando Microsoft Azure.
