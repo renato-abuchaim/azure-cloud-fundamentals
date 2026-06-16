@@ -23,3 +23,36 @@ Além do armazenamento dos dados em banco relacional, todas as alterações real
 * Aplicar conceitos de Azure Table Storage
 * Documentar a API com Swagger
 * Praticar versionamento com Git e GitHub
+
+---
+
+## 👤 Modelo de Dados
+
+### Funcionario
+
+```json
+{
+  "nome": "Nome funcionário",
+  "endereco": "Rua 123",
+  "ramal": "1234",
+  "emailProfissional": "email@empresa.com",
+  "departamento": "TI",
+  "salario": 1000,
+  "dataAdmissao": "2022-06-23T02:58:36.345Z"
+}
+```
+
+### Propriedades
+
+| Campo             | Tipo           |
+| ----------------- | -------------- |
+| Id                | int            |
+| Nome              | string         |
+| Endereco          | string         |
+| Ramal             | string         |
+| EmailProfissional | string         |
+| Departamento      | string         |
+| Salario           | decimal        |
+| DataAdmissao      | DateTimeOffset |
+
+---
