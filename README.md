@@ -46,13 +46,13 @@ Além do aprendizado em Cloud Computing, este projeto também é utilizado para 
 
 ### Fundamentos de Cloud Computing
 
-* [❌] Computação em Nuvem
-* [❌] Modelos de Nuvem
-* [❌] Benefícios da Nuvem
-* [❌] IaaS, PaaS e SaaS
-* [❌] Responsabilidade Compartilhada
-* [❌] SLA
-* [❌] Portal Azure
+* [x] Computação em Nuvem
+* [x] Modelos de Nuvem
+* [x] Benefícios da Nuvem
+* [x] IaaS, PaaS e SaaS
+* [x] Responsabilidade Compartilhada
+* [x] SLA
+* [x] Portal Azure
 
 ---
 
