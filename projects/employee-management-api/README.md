@@ -56,6 +56,7 @@ Além do armazenamento dos dados em banco relacional, todas as alterações real
 | DataAdmissao      | DateTimeOffset |
 
 ---
+
 ## 🗄️ Persistência de Dados
 
 ### SQL Database
@@ -80,4 +81,57 @@ Departamento
 Salario
 DataAdmissao
 ```
+---
+
+## 📋 Funcionalidades
+
+### Funcionários
+
+* Cadastro de funcionários
+* Consulta por ID
+* Atualização de dados
+* Exclusão de registros
+
+---
+
+## 🔄 Endpoints
+
+### Buscar Funcionário
+
+```http
+GET /Funcionario/{id}
+```
+
+### Cadastrar Funcionário
+
+```http
+POST /Funcionario
+```
+
+Body:
+
+```json
+{
+  "nome": "Nome funcionário",
+  "endereco": "Rua 123",
+  "ramal": "1234",
+  "emailProfissional": "email@empresa.com",
+  "departamento": "TI",
+  "salario": 1000,
+  "dataAdmissao": "2022-06-23T02:58:36.345Z"
+}
+```
+
+### Atualizar Funcionário
+
+```http
+PUT /Funcionario/{id}
+```
+
+### Remover Funcionário
+
+```http
+DELETE /Funcionario/{id}
+```
+
 ---
