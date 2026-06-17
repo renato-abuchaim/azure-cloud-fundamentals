@@ -56,3 +56,28 @@ Além do armazenamento dos dados em banco relacional, todas as alterações real
 | DataAdmissao      | DateTimeOffset |
 
 ---
+## 🗄️ Persistência de Dados
+
+### SQL Database
+
+Os funcionários são armazenados em banco de dados relacional utilizando Entity Framework Core.
+
+Tabela:
+
+```text
+Funcionarios
+```
+
+Campos:
+
+```text
+Id
+Nome
+Endereco
+Ramal
+EmailProfissional
+Departamento
+Salario
+DataAdmissao
+```
+---
