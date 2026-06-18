@@ -135,3 +135,35 @@ DELETE /Funcionario/{id}
 ```
 
 ---
+
+### Auditoria
+
+Toda alteração gera automaticamente um registro de log contendo:
+
+* Tipo da ação executada
+* Dados completos do funcionário
+* Departamento relacionado
+* Data e hora da operação
+
+---
+
+### Azure Table Storage
+
+Os logs de auditoria são armazenados em:
+
+```text
+FuncionarioLog
+```
+
+Campos principais:
+
+```text
+PartitionKey
+RowKey
+TipoAcao
+JSON
+Timestamp
+ETag
+```
+
+---
