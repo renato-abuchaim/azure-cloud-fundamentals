@@ -167,3 +167,15 @@ ETag
 ```
 
 ---
+
+## 🏗️ Banco de Dados
+
+Migration inicial criada para geração da tabela:
+
+```text
+Funcionarios
+```
+
+Estrutura gerada através do Entity Framework Core.
+
+---
