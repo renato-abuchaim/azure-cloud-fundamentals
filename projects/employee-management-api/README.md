@@ -168,6 +168,32 @@ ETag
 
 ---
 
+## 📦 Pacotes Utilizados
+
+```text
+Azure.Data.Tables
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Design
+Swashbuckle.AspNetCore
+```
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* C#
+* ASP.NET Core 6
+* Entity Framework Core
+* SQL Server
+* Azure Data Tables SDK
+* Swagger
+* Microsoft Azure
+* Git
+* GitHub
+
+---
+
 ## 🏗️ Banco de Dados
 
 Migration inicial criada para geração da tabela:
