@@ -26,6 +26,24 @@ Além do armazenamento dos dados em banco relacional, todas as alterações real
 
 ---
 
+## 🖼️ Diagramas e Capturas
+
+### 📊 Diagrama de Classes
+
+Representação das entidades utilizadas na aplicação.
+
+![Diagrama de Classes](../employee-management-api/images/diagrama_classe.png)
+
+---
+
+### ☁️ Arquitetura da Solução
+
+Fluxo de comunicação entre a API, banco de dados e armazenamento de logs.
+
+![Arquitetura da Solução](../employee-management-api/images/diagrama_api.png)
+
+---
+
 ## 👤 Modelo de Dados
 
 ### Funcionario
