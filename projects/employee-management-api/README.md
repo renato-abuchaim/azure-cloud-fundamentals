@@ -44,6 +44,14 @@ Fluxo de comunicação entre a API, banco de dados e armazenamento de logs.
 
 ---
 
+### 📚 Swagger
+
+Documentação automática dos endpoints disponibilizados pela API.
+
+![Swagger](../employee-management-api/images/swagger.png)
+
+---
+
 ## 👤 Modelo de Dados
 
 ### Funcionario
