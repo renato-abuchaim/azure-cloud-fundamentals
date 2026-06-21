@@ -1,0 +1,36 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+
+# Logs
+*.log
+
+# Test Results
+TestResults/
+
+# User Secrets
+secrets.json
+
+# Azure Functions
+local.settings.json
+
+# OS Files
+.DS_Store
+Thumbs.db
