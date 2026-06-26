@@ -22,6 +22,42 @@ O projeto reúne exemplos de:
 
 O objetivo é simular uma arquitetura moderna orientada a eventos, aplicando conceitos utilizados em ambientes corporativos e soluções cloud-native.
 
+---
+
 ## Estrutura
 
 Em construção.
+
+---
+
+# 🏗️ Arquitetura
+
+O projeto utiliza uma arquitetura orientada a eventos baseada em Azure Functions.
+
+```text
+HTTP Request
+      │
+      ▼
+fn-simples
+
+```
+
+---
+
+# 🚀 Laboratórios Disponíveis
+
+## 🟪 fn-simples
+
+### HttpTriggerFunction
+
+Função HTTP básica utilizada para validação do ambiente e testes de execução.
+
+**Trigger:** HTTP Trigger
+
+**Cenários:**
+
+* Testes locais;
+* Health checks;
+* Endpoints simples.
+
+---
