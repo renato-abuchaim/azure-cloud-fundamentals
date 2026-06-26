@@ -83,7 +83,7 @@ azure-cloud-fundamentals/
     ├── private-cloud.png
     ├── public-cloud.png
     ├── saas.png
-    ├── shared-responsibilitu-model.png
+    ├── shared-responsibility-model.png
     └── sla.png
        
 ```
