@@ -45,6 +45,58 @@ Blob Upload
       ▼
 fn-input-blob
 
+Service Bus Queue
+      │
+      ▼
+fn-ler-sb
+```
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+azure-serverless-labs/
+│
+├── README.md
+├── .gitignore
+├── AzureServerlessLabs.sln
+│
+├── fn-input-blob/
+│   ├── BlobProcessorFunction.cs
+│   ├── Program.cs
+│   ├── fn-input-blob.csproj
+│   ├── host.json
+│   ├── serviceDependencies.json
+│   ├── serviceDependencies.local.json
+│   ├── Properties/
+│   │   └── launchSettings.json
+│   └── ServiceDependencies/
+│       └── local/
+│           └── storage2.arm.json
+│
+├── fn-ler-sb/
+│   ├── ServiceBusConsumerFunction.cs
+│   ├── Program.cs
+│   ├── fn-ler-sb.csproj
+│   ├── host.json
+│   ├── serviceDependencies.json
+│   ├── serviceDependencies.local.json
+│   └── Properties/
+│       └── launchSettings.json
+│
+├── fn-simples/
+│   ├── HttpTriggerFunction.cs
+│   ├── Program.cs
+│   ├── fn-simples.csproj
+│   ├── host.json
+│   ├── serviceDependencies.json
+│   ├── serviceDependencies.local.json
+│   └── Properties/
+│       └── launchSettings.json
+├── fn-save-sql/
+│
+└── fn-tempo/
+
 ```
 
 ---
@@ -84,5 +136,21 @@ Executada automaticamente quando um arquivo é enviado para um container Blob St
 * Processamento de arquivos;
 * Pipelines orientados a eventos;
 * Integração com Storage Account.
+
+---
+
+## 🟨 fn-ler-sb
+
+### ServiceBusConsumerFunction
+
+Consome mensagens do Azure Service Bus e realiza integração com sistemas externos.
+
+**Trigger:** Service Bus Trigger
+
+**Cenários:**
+
+* Processamento assíncrono;
+* Comunicação desacoplada;
+* Integração entre aplicações.
 
 ---
