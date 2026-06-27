@@ -57,6 +57,11 @@ fn-save-sql
       │
       ▼
 Azure SQL Database
+
+Timer Trigger
+      │
+      ▼
+fn-tempo
 ```
 ---
 
@@ -114,6 +119,14 @@ azure-serverless-labs/
 │       └── launchSettings.json
 │
 └── fn-tempo/
+    ├── ScheduledTaskFunction.cs
+    ├── Program.cs
+    ├── fn-tempo.csproj
+    ├── host.json
+    ├── serviceDependencies.json
+    ├── serviceDependencies.local.json
+    └── Properties/
+        └── launchSettings.json
 
 ```
 
@@ -188,5 +201,23 @@ Recebe dados via HTTP e persiste registros utilizando SQL Output Binding.
 * Persistência de dados;
 * APIs serverless;
 * Integração com banco de dados.
+
+---
+
+## 🔴 fn-tempo
+
+### ScheduledTaskFunction
+
+Executada automaticamente conforme cron configurado.
+
+**Trigger**
+
+* Timer Trigger
+
+**Objetivos**
+
+* automações;
+* rotinas recorrentes;
+* tarefas agendadas.
 
 ---
