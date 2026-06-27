@@ -40,6 +40,11 @@ HTTP Request
       ▼
 fn-simples
 
+Blob Upload
+      │
+      ▼
+fn-input-blob
+
 ```
 
 ---
@@ -59,5 +64,25 @@ Função HTTP básica utilizada para validação do ambiente e testes de execuç
 * Testes locais;
 * Health checks;
 * Endpoints simples.
+
+---
+
+## 🟦 fn-input-blob
+
+### BlobProcessorFunction
+
+Executada automaticamente quando um arquivo é enviado para um container Blob Storage.
+
+**Triggers e Bindings:**
+
+* Blob Trigger
+* Blob Input
+* Blob Output
+
+**Cenários:**
+
+* Processamento de arquivos;
+* Pipelines orientados a eventos;
+* Integração com Storage Account.
 
 ---
