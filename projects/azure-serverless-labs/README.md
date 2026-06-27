@@ -49,6 +49,14 @@ Service Bus Queue
       │
       ▼
 fn-ler-sb
+
+HTTP Request
+      │
+      ▼
+fn-save-sql
+      │
+      ▼
+Azure SQL Database
 ```
 ---
 
@@ -84,6 +92,17 @@ azure-serverless-labs/
 │   └── Properties/
 │       └── launchSettings.json
 │
+├── fn-save-sql/
+│   ├── SqlPersistenceFunction.cs
+│   ├── ClienteItem.cs
+│   ├── Program.cs
+│   ├── fn-save-sql.csproj
+│   ├── host.json
+│   ├── serviceDependencies.json
+│   ├── serviceDependencies.local.json
+│   └── Properties/
+│       └── launchSettings.json
+│
 ├── fn-simples/
 │   ├── HttpTriggerFunction.cs
 │   ├── Program.cs
@@ -93,7 +112,6 @@ azure-serverless-labs/
 │   ├── serviceDependencies.local.json
 │   └── Properties/
 │       └── launchSettings.json
-├── fn-save-sql/
 │
 └── fn-tempo/
 
@@ -152,5 +170,23 @@ Consome mensagens do Azure Service Bus e realiza integração com sistemas exter
 * Processamento assíncrono;
 * Comunicação desacoplada;
 * Integração entre aplicações.
+
+---
+
+## 🟩 fn-save-sql
+
+### SqlPersistenceFunction
+
+Recebe dados via HTTP e persiste registros utilizando SQL Output Binding.
+
+**Trigger:** HTTP Trigger
+
+**Binding:** SQL Output Binding
+
+**Cenários:**
+
+* Persistência de dados;
+* APIs serverless;
+* Integração com banco de dados.
 
 ---
