@@ -31,6 +31,8 @@
 
 # 📖 Sobre o Projeto
 
+![Arquitetura do Projeto](images/project-architecture.png)
+
 O **Azure Serverless Labs** é um laboratório prático desenvolvido com **Azure Functions utilizando .NET 8**, criado para explorar os principais conceitos de computação **Serverless** na Microsoft Azure.
 
 Ao longo do projeto foram implementados diferentes cenários utilizando Azure Functions, demonstrando como aplicações orientadas a eventos podem integrar diversos serviços da plataforma Azure de forma escalável, desacoplada e de baixo custo operacional.
