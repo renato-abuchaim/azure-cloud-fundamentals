@@ -32,9 +32,7 @@ Durante o desenvolvimento, a aplicação normalmente é executada localmente. Ap
 
 Na Microsoft Azure esse processo geralmente é realizado utilizando o Azure App Service.
 
-<p align="center">
-    <img src="../../images/module-2/deploy-overview.png" alt="Deploy Overview" width="650">
-</p>
+![Deploy Overview](/images/modulo-2/deploy-overview.png)
 
 ---
 
@@ -191,9 +189,7 @@ Esse processo reduz erros manuais e agiliza novas publicações.
 
 Durante o laboratório foi utilizada uma arquitetura semelhante à apresentada abaixo.
 
-<p align="center">
-    <img src="../../images/module-2/deployment-architecture.png" alt="Deployment Architecture" width="900">
-</p>
+![Deployment Architecture](/images/modulo-2/deployment-architecture.png)
 
 A arquitetura demonstra:
 

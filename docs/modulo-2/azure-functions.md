@@ -1,6 +1,6 @@
 # Azure Functions
 
-![Azure Functions](../images/module-2/azure-functions-overview.png)
+![Azure Functions](/images/modulo-2/azure-functions-overview.png)
 
 ## Introdução
 
@@ -48,7 +48,7 @@ Essa arquitetura facilita a construção de aplicações desacopladas, escaláve
 
 # Arquitetura Básica
 
-![Bindings](../images/module-2/azure-functions-bindings.png)
+![Bindings](/images/modulo-2/azure-functions-bindings.png)
 
 Uma Azure Function é composta basicamente por três elementos:
 
