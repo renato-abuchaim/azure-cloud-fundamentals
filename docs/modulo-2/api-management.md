@@ -1,6 +1,6 @@
 # Gerenciamento de APIs com Azure API Management
 
-![Azure API Management](../images/module-2/api-management-subscriptions.png)
+![Azure API Management](/images/modulo-2/api-management-subscriptions.png)
 
 ## Introdução
 

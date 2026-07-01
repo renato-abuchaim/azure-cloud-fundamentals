@@ -1,6 +1,6 @@
 # Mensageria e Serviços de Comunicação na Microsoft Azure
 
-![Azure Service Bus](../images/module-2/azure-service-bus.png)
+![Azure Service Bus](/images/modulo-2/azure-service-bus.png)
 
 ## Introdução
 
@@ -91,7 +91,7 @@ Esse modelo oferece:
 
 # Azure Service Bus
 
-![Azure Service Bus](../images/module-2/service-bus-queue.png)
+![Azure Service Bus](/images/modulo-2/service-bus-queue.png)
 
 O Azure Service Bus é o serviço de mensageria empresarial da Microsoft Azure.
 
@@ -158,7 +158,7 @@ Entre os principais benefícios estão:
 
 # Tópicos (Topics)
 
-![Service Bus Topics](../images/module-2/service-bus-topics.png)
+![Service Bus Topics](/images/modulo-2/service-bus-topics.png)
 
 Os tópicos permitem que uma única mensagem seja entregue para vários consumidores.
 
@@ -225,7 +225,7 @@ Esse recurso evita perda de mensagens.
 
 # Azure Event Grid
 
-![Azure Event Grid](../images/module-2/azure-event-grid.png)
+![Azure Event Grid](/images/modulo-2/azure-event-grid.png)
 
 O Azure Event Grid é o serviço da Microsoft Azure responsável pelo gerenciamento de eventos.
 
@@ -269,7 +269,7 @@ Exemplos:
 
 # Arquitetura do Event Grid
 
-![Arquitetura Event Grid](../images/module-2/event-grid-architecture.png)
+![Arquitetura Event Grid](/images/modulo-2/event-grid-architecture.png)
 
 Fluxo simplificado:
 
