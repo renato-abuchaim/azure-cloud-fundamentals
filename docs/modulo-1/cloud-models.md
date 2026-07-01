@@ -29,7 +29,7 @@ Características:
 * Baixo custo inicial
 * Implantação rápida
 
-![Nuvem Pública](../images/public-cloud.png)
+![Nuvem Pública](/images/modulo-1/public-cloud.png)
 
 ---
 
@@ -54,7 +54,7 @@ Características:
 * Maior custo de implementação
 * Responsabilidade pela manutenção
 
-![Nuvem Privada](../images/private-cloud.png)
+![Nuvem Privada](/images/modulo-1/private-cloud.png)
 
 ---
 
@@ -74,7 +74,7 @@ Esse modelo permite que cada aplicação seja executada no ambiente mais adequad
 
 Uma empresa pode armazenar dados sensíveis em uma nuvem privada e utilizar a nuvem pública para aplicações com maior demanda.
 
-![Nuvem Híbrida](../images/hybrid-cloud.png)
+![Nuvem Híbrida](/images/modulo-1/hybrid-cloud.png)
 
 ---
 
