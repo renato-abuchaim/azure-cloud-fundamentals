@@ -16,7 +16,7 @@ Os principais modelos são:
 
 ## 🖥️ IaaS — Infrastructure as a Service
 
-![IaaS — Infrastructure as a Service](../images/iaas.png)
+![IaaS — Infrastructure as a Service](/images/modulo-1/iaas.png)
 
 ### 📌 Conceito
 
@@ -62,7 +62,7 @@ O cliente é responsável por:
 
 ## ⚙️ PaaS — Platform as a Service
 
-![PaaS — Platform as a Service](../images/paas.png)
+![PaaS — Platform as a Service](/images/modulo-1/paas.png)
 
 ### 📌 Conceito
 
@@ -102,7 +102,7 @@ O cliente foca apenas em:
 
 ## 🌐 SaaS — Software as a Service
 
-![SaaS — Software as a Service](../images/saas.png)
+![SaaS — Software as a Service](/images/modulo-1/saas.png)
 
 ### 📌 Conceito
 
@@ -160,7 +160,7 @@ Ele representa o compromisso do provedor com o tempo de funcionamento (uptime).
 
 ### 🖼️ Visualização do SLA
 
-![SLA - Disponibilidade de Serviços](../images/sla.png)
+![SLA - Disponibilidade de Serviços](/images/modulo-1/sla.png)
 
 ---
 
@@ -197,7 +197,7 @@ SLA está diretamente ligado a:
 
 Na nuvem, segurança e operação são divididas entre provedor e cliente.
 
-![Responsabilidade Compartilhada](../images/shared-responsibility-model.png)
+![Responsabilidade Compartilhada](/images/modulo-1/shared-responsibility-model.png)
 
 ### Exemplo:
 

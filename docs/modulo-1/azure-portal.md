@@ -14,7 +14,7 @@ Através dele é possível criar, configurar e monitorar serviços.
 
 Aqui está a interface principal utilizada para gerenciar todos os serviços da Microsoft Azure:
 
-![Azure Portal](../images/azure-portal.png)
+![Azure Portal](/images/modulo-1/azure-portal.png)
 
 O portal é dividido em áreas principais:
 - Dashboard
